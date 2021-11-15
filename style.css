@@ -37,3 +37,41 @@ body {
 .container div:nth-child(even) {
     font-variant: small-caps;
 }
+
+
+.btn {
+    background: green;
+    padding: 20px;
+    margin: 20px ;
+    color: #fff;
+    border: 10px solid rgb(150, 226, 150);
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.link a {
+    color:grey;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.link a:active {
+    color:violet;
+}
+
+.link a:visited{
+    color: greenyellow;
+} 
+
+
+.linkt a {
+    text-decoration: none;
+}
+
+.linkt a:hover {
+    text-decoration: underline;
+}
